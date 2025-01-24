@@ -6,7 +6,7 @@ const events = [
     id: 1,
     name: 'Code Crusade',
     category: 'coding',
-    description: 'PG & UG coding competition',
+    description: 'coding competition',
     type: ['PG', 'UG']
   },
   {
