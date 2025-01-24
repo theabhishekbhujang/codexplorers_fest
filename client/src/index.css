@@ -1,0 +1,22 @@
+@tailwind base;  /* ✅ Now valid with v3 */
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Custom glow animation */
+.glow-effect {
+  box-shadow: 0 0 20px rgba(255,255,255,0.5);
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px rgba(255,255,255,0.3); }
+  to { box-shadow: 0 0 30px rgba(255,255,255,0.7); }
+}
