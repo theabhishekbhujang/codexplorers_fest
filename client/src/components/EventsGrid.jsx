@@ -21,21 +21,21 @@ const events = [
     name: 'Tech Trivia',
     category: 'quiz',
     description: 'IT quiz competition',
-    type: ['UG']
+    type: ['PG', 'UG']
   },
   {
     id: 4,
     name: 'Startup Summit',
     category: 'tech-tank',
     description: 'Tech pitch competition',
-    type: ['PG']
+    type: ['PG', 'UG']
   },
   {
     id: 5,
     name: 'Frame Focus',
     category: 'photography',
-    description: 'Technical photography contest',
-    type: ['UG']
+    description: 'photography contest',
+    type: ['PG', 'UG']
   }
   // Add more events as needed
 ];
