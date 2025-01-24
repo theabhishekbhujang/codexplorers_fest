@@ -87,7 +87,6 @@ const HeroSection = () => {
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4 drop-shadow-lg px-2">
             CodeXplorers Fest 2025
           </h1>
-          // In HeroSection.jsx - Update this section
 <div className="flex flex-row items-center justify-center gap-2 md:gap-4 text-sm md:text-lg">
   <ClockIcon className="w-5 h-5 md:w-8 md:h-8" />
   <AnimatePresence mode="wait">
