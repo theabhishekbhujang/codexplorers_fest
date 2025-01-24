@@ -4,7 +4,7 @@ import Countdown from 'react-countdown';
 
 const HeroSection = () => {
   const festDate = new Date(2025, 2, 1); // March 1, 2025
-
+ 
   const numberVariants = {
     initial: { scale: 0.8, opacity: 0 },
     animate: { scale: 1, opacity: 1 },
